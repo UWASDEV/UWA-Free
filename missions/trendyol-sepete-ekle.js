@@ -11,8 +11,8 @@ const SEARCH_INPUT_SELECTOR = '#responsive-navigation-layout > div > div > div.s
 const SEARCH_INPUT_ACTIVE_SELECTOR = '#responsive-navigation-layout > div > div > div.search-bar-wrapper > div > div.search-bar-new-input-active > input';
 const ADD_TO_CART_TEXT = 'Şimdi Al';
 const LOCATION_SELECT_BUTTON_SELECTOR = '#envoy > div > div:nth-child(1) > div > div.location-based-delivery > div > div.location-select-button-wrapper > div > div > button';
-const MARKET_ID = '107195';
-const ARAMA_TERIMI = 'ferrucci erkek saat';
+const MARKET_ID = 'SIZIN_SATICI_NUMARANIZ';
+const ARAMA_TERIMI = 'SIZIN_ARAMA_TERIMINIZ';
 const ACCEPT_COOKIES_SELECTOR = '#onetrust-accept-btn-handler';
 class TrendyolSepeteEkleMission extends modules_helper_1.ModulesHelper.BaseMission {
     static getMetadata() {
